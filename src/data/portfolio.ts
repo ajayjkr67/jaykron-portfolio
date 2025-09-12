@@ -1,10 +1,12 @@
+import profile from "../assets/ajay-jaykar.png";
+
 export const personalInfo = {
   name: "Ajay Jaykar",
   title: "Frontend UI Developer",
   brand: "JayKron",
   bio: "A passionate Frontend UI Developer 🚀 with 2+ years of experience crafting responsive websites and web apps using React.js, TypeScript, and modern frameworks. Skilled in performance-focused design, smooth animations, and delivering top-tier UX.",
   email: "jaykron.dev@gmail.com",
-  profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+  profileImage: profile,
   location: "India",
   resumeUrl: "#",
 };
@@ -69,12 +71,12 @@ export const projects = [
 export const experience = [
   {
     id: 1,
-    company: "Alot Sol.",
+    company: "Alot Digital Solutions",
     position: "Fullstack Developer",
     duration: "1.5 years",
     period: "2022 - 2023",
-    description: "Developed full-stack web applications using modern technologies. Worked on both frontend and backend development, creating responsive user interfaces and robust server-side solutions.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "TypeScript"],
+    description: "Developed responsive and modern frontend web applications using React, JavaScript, and CSS frameworks, ensuring cross-device compatibility. Delivered clean UI designs with smooth animations and performance optimization, improving overall user experience.",
+    technologies: ["React", "Node.js", "Postgres", "Express", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
     type: "Full-time"
   },
   {
@@ -83,7 +85,7 @@ export const experience = [
     position: "Software Developer",
     duration: "6 months",
     period: "2021 - 2022",
-    description: "Focused on frontend development and UI/UX implementation. Created responsive web applications and collaborated with design teams to deliver pixel-perfect interfaces.",
+    description: "Focused on frontend development and UI/UX implementation, creating responsive and modern web applications. Used React, JavaScript, and CSS frameworks to deliver smooth, user-friendly experiences.",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
     type: "Full-time"
   }
@@ -118,7 +120,7 @@ export const certifications = [
   {
     id: 2,
     title: "React & JavaScript",
-    provider: "Udemy", 
+    provider: "Udemy",
     year: "2023",
     image: "https://logos-world.net/wp-content/uploads/2021/11/Udemy-Symbol.png",
     credentialUrl: "#",

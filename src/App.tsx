@@ -1,5 +1,9 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import profile from "./assets/ajay-jaykar.png";
+
+import { experience } from "./data/portfolio.ts";
+
 
 function App() {
   return (
@@ -33,7 +37,7 @@ function App() {
                   <p>
                     My journey began with a curiosity about how websites work, which quickly evolved
                     into a deep passion for crafting exceptional user experiences. I specialize in
-                    modern web technologies like React, TypeScript, and cutting-edge CSS frameworks.
+                    modern web technologies like React.js, Tailwind CSS, and cutting-edge CSS frameworks.
                   </p>
                   <p>
                     What sets me apart is my attention to detail, love for clean code, and commitment
@@ -44,7 +48,7 @@ function App() {
               </div>
               <div className="flex justify-center">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+                  src={profile}
                   alt="Ajay Jaykar"
                   className="w-80 h-80 object-cover rounded-2xl shadow-2xl"
                 />
@@ -74,7 +78,7 @@ function App() {
                     {skill}
                   </h4>
                   <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                    <div className="h-full bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full" style={{width: '85%'}}></div>
+                    <div className="h-full bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full" style={{ width: '85%' }}></div>
                   </div>
                 </div>
               ))}
@@ -94,50 +98,55 @@ function App() {
               </p>
             </div>
             <div className="grid lg:grid-cols-2 gap-8">
-              <div className="card overflow-hidden">
-                <img
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
-                  alt="Arden Website"
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                    Arden Website
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Responsive website with Bootstrap, animations, interactive forms & carousels.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {['HTML5', 'CSS3', 'Bootstrap', 'JavaScript'].map((tech) => (
-                      <span key={tech} className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm">
-                        {tech}
-                      </span>
-                    ))}
+              <a href="https://ajayjkr67.github.io/arden/">
+                <div className="card overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
+                    alt="Arden Website"
+                    className="w-full h-64 object-cover"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                      Arden Website
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-300 mb-4">
+                      Responsive website with Bootstrap, animations, interactive forms & carousels.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mb-4">
+                      {['HTML5', 'CSS3', 'Bootstrap', 'JavaScript'].map((tech) => (
+                        <span key={tech} className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="card overflow-hidden">
-                <img
-                  src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop"
-                  alt="Biztrox Website"
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                    Biztrox Website
-                  </h3>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Clean UI using HTML/CSS with animated elements and stylish design.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {['HTML5', 'CSS3', 'JavaScript', 'SCSS'].map((tech) => (
-                      <span key={tech} className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm">
-                        {tech}
-                      </span>
-                    ))}
+              </a>
+
+              <a href="https://ajayjkr67.github.io/biztrox/">
+                <div className="card overflow-hidden cursor-pointer">
+                  <img
+                    src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop"
+                    alt="Biztrox Website"
+                    className="w-full h-64 object-cover"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                      Biztrox Website
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-300 mb-4">
+                      Clean UI using HTML/CSS with animated elements and stylish design.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mb-10">
+                      {['HTML5', 'CSS3', 'JavaScript', 'SCSS'].map((tech) => (
+                        <span key={tech} className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </section>
@@ -154,52 +163,34 @@ function App() {
               </p>
             </div>
             <div className="space-y-8">
-              <div className="card p-6">
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                      Fullstack Developer
-                    </h3>
-                    <p className="text-lg font-semibold text-primary-600 dark:text-primary-400 mb-2">
-                      Alot Sol.
-                    </p>
-                    <p className="text-gray-600 dark:text-gray-300">2022 - 2023 • 1.5 years</p>
+              {experience.map((exp) => (
+                <div key={exp.id} className="card p-6">
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+                        {exp.position}
+                      </h3>
+                      <p className="text-lg font-semibold text-primary-600 dark:text-primary-400 mb-2">
+                        {exp.company}
+                      </p>
+                      <p className="text-gray-600 dark:text-gray-300">{exp.period} • {exp.duration}</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4">
+                    {exp.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {exp.technologies.map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm"
+                      >
+                        {tech}
+                      </span>
+                    ))}
                   </div>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Developed full-stack web applications using modern technologies. Worked on both frontend and backend development.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {['React', 'Node.js', 'MongoDB', 'Express', 'TypeScript'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <div className="card p-6">
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-                      Software Developer
-                    </h3>
-                    <p className="text-lg font-semibold text-primary-600 dark:text-primary-400 mb-2">
-                      Vishleshan Soft Sol.
-                    </p>
-                    <p className="text-gray-600 dark:text-gray-300">2021 - 2022 • 6 months</p>
-                  </div>
-                </div>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Focused on frontend development and UI/UX implementation. Created responsive web applications.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full text-sm">
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </section>
