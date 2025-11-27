@@ -10,7 +10,7 @@ export const personalInfo = {
   location: "India",
   resumeUrl: "#",
 };
-
+//
 export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/ajay-jaykar61",
   github: "https://github.com/ajayjkr67",
