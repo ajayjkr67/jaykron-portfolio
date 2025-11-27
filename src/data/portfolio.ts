@@ -74,7 +74,7 @@ export const experience = [
     company: "Alot Digital Solutions",
     position: "Fullstack Developer",
     duration: "1.5 years",
-    period: "2024 - 2025",
+    period: "2024 - 2023",
     description: "Developed responsive and modern frontend web applications using React, JavaScript, and CSS frameworks, ensuring cross-device compatibility. Delivered clean UI designs with smooth animations and performance optimization, improving overall user experience.",
     technologies: ["React", "Node.js", "Postgres", "Express", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
     type: "Full-time"
