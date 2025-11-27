@@ -74,7 +74,7 @@ export const experience = [
     company: "Alot Digital Solutions",
     position: "Fullstack Developer",
     duration: "1.5 years",
-    period: "2022 - 2023",
+    period: "2024 - 2025",
     description: "Developed responsive and modern frontend web applications using React, JavaScript, and CSS frameworks, ensuring cross-device compatibility. Delivered clean UI designs with smooth animations and performance optimization, improving overall user experience.",
     technologies: ["React", "Node.js", "Postgres", "Express", "JavaScript", "HTML", "CSS", "Tailwind CSS"],
     type: "Full-time"
@@ -84,7 +84,7 @@ export const experience = [
     company: "Vishleshan Soft Sol.",
     position: "Software Developer",
     duration: "6 months",
-    period: "2021 - 2022",
+    period: "2023 - 2024",
     description: "Focused on frontend development and UI/UX implementation, creating responsive and modern web applications. Used React, JavaScript, and CSS frameworks to deliver smooth, user-friendly experiences.",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery"],
     type: "Full-time"
