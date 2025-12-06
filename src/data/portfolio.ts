@@ -72,7 +72,7 @@ export const projects = [
     description: "Designed a clean, patient-friendly website for a modern eye-care clinic showcasing services from diagnostics to laser treatments, enabling online appointments, and delivering trust through accessible layout and clear messaging.",
     image: "https://mednix.themeht.com/wp-content/uploads/2025/10/eyecare7-600x500.jpg",
     technologies: ["React", "Node.js", "Tailwind CSS", "JavaScript", "material UI"],
-    githubUrl: "https://ajayjkr67.github.io/mk_speciality_clinic/",
+    githubUrl: "https://ajayjkr67.github.io/clinic_test/",
     liveUrl: "https://eye-clinic-demo.netlify.app",
     featured: true,
   },
