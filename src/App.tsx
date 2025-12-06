@@ -52,7 +52,7 @@ function App() {
                 <img
                   src={profile}
                   alt="Ajay Jaykar"
-                  className="w-80 h-80 object-cover rounded-2xl shadow-2xl"
+                  className="w-80 h-80 object-cover rounded-2xl shadow-2xl cursor-pointer"
                 />
               </div>
             </div>

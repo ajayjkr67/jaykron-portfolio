@@ -149,8 +149,8 @@ const Hero = () => {
                 className="relative z-10 w-80 h-80 object-cover rounded-full shadow-2xl cursor-pointer"
               />
               <motion.div
-                animate={{ scale: [1, 1.1, 1] }}
-                transition={{ duration: 2, repeat: Infinity }}
+                animate={{ scale: [1, 1.4, 1] }}
+                transition={{ duration: 1.7, repeat: Infinity, repeatType: "mirror" }}
                 className="absolute -top-4 -right-4 w-8 h-8 bg-green-400 rounded-full border-4 border-white dark:border-gray-900"
               ></motion.div>
             </div>
