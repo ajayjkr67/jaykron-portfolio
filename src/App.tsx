@@ -3,6 +3,8 @@ import Hero from './components/Hero';
 import profile from "./assets/ajay-jaykar.png";
 
 import { experience } from "./data/portfolio.ts";
+import { projects } from "./data/portfolio";
+
 
 
 function App() {
@@ -97,59 +99,43 @@ function App() {
                 A showcase of my recent work and creative solutions
               </p>
             </div>
-            <div className="grid lg:grid-cols-2 gap-8">
-              <a href="https://ajayjkr67.github.io/arden/">
-                <div className="card overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop"
-                    alt="Arden Website"
-                    className="w-full h-64 object-cover"
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                      Arden Website
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-300 mb-4">
-                      Responsive website with Bootstrap, animations, interactive forms & carousels.
-                    </p>
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      {['HTML5', 'CSS3', 'Bootstrap', 'JavaScript'].map((tech) => (
-                        <span key={tech} className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm">
-                          {tech}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </a>
 
-              <a href="https://ajayjkr67.github.io/biztrox/">
-                <div className="card overflow-hidden cursor-pointer">
-                  <img
-                    src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop"
-                    alt="Biztrox Website"
-                    className="w-full h-64 object-cover"
-                  />
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
-                      Biztrox Website
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-300 mb-4">
-                      Clean UI using HTML/CSS with animated elements and stylish design.
-                    </p>
-                    <div className="flex flex-wrap gap-2 mb-10">
-                      {['HTML5', 'CSS3', 'JavaScript', 'SCSS'].map((tech) => (
-                        <span key={tech} className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm">
-                          {tech}
-                        </span>
-                      ))}
+            <div className="grid lg:grid-cols-2 gap-8">
+              {projects.map(project => (
+                <a key={project.id} href={project.liveUrl}>
+                  <div className="card overflow-hidden cursor-pointer">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-72 object-cover"
+                    />
+                    <div className="p-6">
+                      <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
+                        {project.title}
+                      </h3>
+
+                      <p className="text-gray-600 dark:text-gray-300 mb-4">
+                        {project.description}
+                      </p>
+
+                      <div className="flex flex-wrap gap-2 mb-4">
+                        {project.technologies.map(tech => (
+                          <span
+                            key={tech}
+                            className="px-3 py-1 bg-primary-100 dark:bg-primary-900 text-primary-700 dark:text-primary-300 rounded-full text-sm"
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              </a>
+                </a>
+              ))}
             </div>
           </div>
         </section>
+
 
         {/* Experience Section */}
         <section id="experience" className="section-padding bg-white dark:bg-gray-900">
