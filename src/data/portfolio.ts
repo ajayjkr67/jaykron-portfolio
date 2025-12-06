@@ -52,8 +52,7 @@ export const projects = [
     description: "Responsive website with Bootstrap, animations, interactive forms & carousels. Features modern UI design with smooth transitions and user-friendly interface.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
     technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"],
-    githubUrl: "https://github.com/ajayjkr67/arden-demo",
-    liveUrl: "https://arden-demo.netlify.app",
+    liveUrl: "https://ajayjkr67.github.io/arden/",
     featured: true,
   },
   {
@@ -62,8 +61,7 @@ export const projects = [
     description: "Clean UI using HTML/CSS with animated elements and stylish design. Focused on modern aesthetics and smooth user experience with creative animations.",
     image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop",
     technologies: ["HTML5", "CSS3", "Tailwind CSS", "JavaScript", "SCSS"],
-    githubUrl: "https://github.com/ajayjkr67/biztrox-demo",
-    liveUrl: "https://biztrox-demo.netlify.app",
+    liveUrl: "https://ajayjkr67.github.io/biztrox/",
     featured: true,
   },
   {
@@ -72,8 +70,7 @@ export const projects = [
     description: "Designed a clean, patient-friendly website for a modern eye-care clinic showcasing services from diagnostics to laser treatments, enabling online appointments, and delivering trust through accessible layout and clear messaging.",
     image: "https://mednix.themeht.com/wp-content/uploads/2025/10/eyecare7-600x500.jpg",
     technologies: ["React", "Node.js", "Tailwind CSS", "JavaScript", "material UI"],
-    githubUrl: "https://ajayjkr67.github.io/clinic_test/",
-    liveUrl: "https://eye-clinic-demo.netlify.app",
+    liveUrl: "https://ajayjkr67.github.io/clinic_test/",
     featured: true,
   },
   {
@@ -82,8 +79,7 @@ export const projects = [
     description: "Designed a patient-centric website for a multispeciality clinic, highlighting general care, vaccinations, urgent-care procedures with clear calls to action for appointments and contact, featuring easy navigation and responsive layout.",
     image: "https://ajayjkr67.github.io/mk_speciality_clinic/images/doctor_patient.jpg",
     technologies: ["React", "Node.js", "Tailwind CSS", "JavaScript", "SCSS"],
-    githubUrl: "https://ajayjkr67.github.io/mk_speciality_clinic/",
-    liveUrl: "https://mk-speciality-clinic.netlify.app",
+    liveUrl: "https://ajayjkr67.github.io/mk_speciality_clinic/",
     featured: true,
   },
 ];
