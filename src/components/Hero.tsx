@@ -146,7 +146,7 @@ const Hero = () => {
                 src={personalInfo.profileImage}
                 alt={personalInfo.name}
                 whileHover={{ scale: 1.05 }}
-                className="relative z-10 w-80 h-80 object-cover rounded-full shadow-2xl"
+                className="relative z-10 w-80 h-80 object-cover rounded-full shadow-2xl cursor-pointer"
               />
               <motion.div
                 animate={{ scale: [1, 1.1, 1] }}

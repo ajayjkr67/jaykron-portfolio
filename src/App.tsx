@@ -150,7 +150,7 @@ function App() {
             </div>
             <div className="space-y-8">
               {experience.map((exp) => (
-                <div key={exp.id} className="card p-6">
+                <div key={exp.id} className="card p-6 cursor-pointer">
                   <div className="flex items-start justify-between mb-4">
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 dark:text-white">
@@ -199,7 +199,7 @@ function App() {
                     Let's Connect
                   </h3>
                   <div className="space-y-4">
-                    <div className="flex items-center gap-4 p-4 bg-white dark:bg-gray-700 rounded-lg">
+                    <div className="flex items-center gap-4 p-4 bg-white dark:bg-gray-700 rounded-lg cursor-pointer">
                       <div className="w-12 h-12 bg-primary-100 dark:bg-primary-900 text-primary-600 dark:text-primary-400 rounded-lg flex items-center justify-center">
                         📧
                       </div>
@@ -208,18 +208,18 @@ function App() {
                         <p className="text-gray-600 dark:text-gray-300">jaykron.dev@gmail.com</p>
                       </div>
                     </div>
-                    <div className="flex items-center gap-4 p-4 bg-white dark:bg-gray-700 rounded-lg">
+                    <div className="flex items-center gap-4 p-4 bg-white dark:bg-gray-700 rounded-lg cursor-pointer">
                       <div className="w-12 h-12 bg-primary-100 dark:bg-primary-900 text-primary-600 dark:text-primary-400 rounded-lg flex items-center justify-center">
                         📍
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 dark:text-white">Location</h4>
-                        <p className="text-gray-600 dark:text-gray-300">India</p>
+                        <p className="text-gray-600 dark:text-gray-300">Mumbai, India</p>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="card p-8">
+                <div className="card p-8 cursor-pointer">
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
                     Send Message
                   </h3>
@@ -260,7 +260,7 @@ function App() {
       <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-12">
         <div className="container-custom">
           <div className="text-center">
-            <div className="flex items-center justify-center space-x-2 mb-4">
+            <div className="flex items-center justify-center space-x-2 mb-4 cursor-pointer">
               <div className="w-10 h-10 bg-gradient-to-r from-primary-600 to-secondary-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">J</span>
               </div>
@@ -281,7 +281,7 @@ function App() {
               </a>
             </div>
             <p className="text-gray-500 dark:text-gray-400">
-              © 2024 JayKron. Made with ❤️ by Ajay Jaykar
+              © 2025 JayKron. Made with ❤️ by Ajay Jaykar
             </p>
           </div>
         </div>
