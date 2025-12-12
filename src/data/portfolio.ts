@@ -1,4 +1,5 @@
-import profile from "../assets/ajay-jaykar.png";
+// import profile from "../assets/ajay-jaykar.png";
+import profile from "../assets/3.jpeg";
 
 export const personalInfo = {
   name: "Ajay Jaykar",

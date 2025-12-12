@@ -1,9 +1,11 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import profile from "./assets/ajay-jaykar.png";
+// import profile from "./assets/ajay-jaykar.png";
+import profile from "./assets/1.jpeg";
 
 import { experience } from "./data/portfolio.ts";
 import { projects } from "./data/portfolio";
+
 
 
 
