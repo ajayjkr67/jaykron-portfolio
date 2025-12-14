@@ -1,5 +1,11 @@
 // import profile from "../assets/ajay-jaykar.png";
 import profile from "../assets/3.jpeg";
+import astik_mane from "../../public/astik_mane_project.PNG";
+import mk from "../../public/mk_speciality_project.PNG";
+import true_view from "../../public/true_view_eye_project.PNG";
+import arden from "../../public/arden_project.PNG";
+import biztrox from "../../public/biztrox_project.PNG";
+
 
 export const personalInfo = {
   name: "Ajay Jaykar",
@@ -51,7 +57,7 @@ export const projects = [
     id: 1,
     title: "Arden Website",
     description: "Responsive website with Bootstrap, animations, interactive forms & carousels. Features modern UI design with smooth transitions and user-friendly interface.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+    image: arden,
     technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"],
     liveUrl: "https://ajayjkr67.github.io/arden/",
     featured: true,
@@ -60,7 +66,7 @@ export const projects = [
     id: 2,
     title: "Biztrox Website",
     description: "Clean UI using HTML/CSS with animated elements and stylish design. Focused on modern aesthetics and smooth user experience with creative animations.",
-    image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=400&fit=crop",
+    image: biztrox,
     technologies: ["HTML5", "CSS3", "Tailwind CSS", "JavaScript", "SCSS"],
     liveUrl: "https://ajayjkr67.github.io/biztrox/",
     featured: true,
@@ -69,7 +75,7 @@ export const projects = [
     id: 3,
     title: "True View Eye Clinic",
     description: "Designed a clean, patient-friendly website for a modern eye-care clinic showcasing services from diagnostics to laser treatments, enabling online appointments, and delivering trust through accessible layout and clear messaging.",
-    image: "https://mednix.themeht.com/wp-content/uploads/2025/10/eyecare7-600x500.jpg",
+    image: true_view,
     technologies: ["React", "Node.js", "Tailwind CSS", "JavaScript", "material UI"],
     liveUrl: "https://ajayjkr67.github.io/clinic_test/",
     featured: true,
@@ -78,9 +84,18 @@ export const projects = [
     id: 4,
     title: "MK Speciality Clinic",
     description: "Designed a patient-centric website for a multispeciality clinic, highlighting general care, vaccinations, urgent-care procedures with clear calls to action for appointments and contact, featuring easy navigation and responsive layout.",
-    image: "https://ajayjkr67.github.io/mk_speciality_clinic/images/doctor_patient.jpg",
+    image: mk,
     technologies: ["React", "Node.js", "Tailwind CSS", "JavaScript", "SCSS"],
     liveUrl: "https://ajayjkr67.github.io/mk_speciality_clinic/",
+    featured: true,
+  },
+  {
+    id: 5,
+    title: "Dr. Astik Mane's Psychiatry Clinic",
+    description: "Built a responsive website for a psychiatrist. The site works well on mobile and desktop, includes sections for children, adults, and elderly care, and integrates call, WhatsApp, email, and location map, Booking made easy. Delivered with live deployment on a domain.",
+    image: astik_mane,
+    technologies: ["React", "Node.js", "Tailwind CSS", "JavaScript", "Brevo"],
+    liveUrl: "https://www.astikpsychiatrist.com/",
     featured: true,
   },
 ];
