@@ -1,6 +1,6 @@
 // import profile from "../assets/ajay-jaykar.png";
 import profile from "../assets/3.jpeg";
-import astik_mane from "../assets/astik_mane_project.png";
+import astik_mane from "../assets/astik_mane_project.PNG";
 import mk from "../assets/mk_speciality_project.png";
 import true_view from "../assets/true_view_eye_project.png";
 import arden from "../assets/arden_project.png";
