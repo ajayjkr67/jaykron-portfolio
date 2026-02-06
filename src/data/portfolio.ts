@@ -5,6 +5,7 @@ import mk from "../assets/mk_speciality_project.png";
 import true_view from "../assets/true_view_eye_project.png";
 import arden from "../assets/arden_project.png";
 import biztrox from "../assets/biztrox_project.png";
+//yes
 
 
 export const personalInfo = {
